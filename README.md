@@ -1,4 +1,4 @@
-# Heroku_Used_Car_Price_Prediction
+# Used Car Price Prediction (Heroku, Python, PowerBI)
 
 This project is aimed at creating interactive visualization to understand the relation between price of pre-owned cars and various features such as car brand, condition, mileage, location etc. <br>
 
