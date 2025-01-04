@@ -23,5 +23,5 @@ Number of Records: 240,000
 
 
 ## Model Performance
-For this regression model, R squared value on test set is:
+For this regression model, R squared value on test set is: <br>
 **R Squared (R2) on test data = 0.999324**
