@@ -1,14 +1,28 @@
 # Used Car Price Prediction (Heroku, Python, PowerBI)
 
-This project is aimed at creating interactive visualization to understand the relation between price of pre-owned cars and various features such as car brand, condition, mileage, location etc. <br>
+This project focuses on creating interactive visualizations and a prediction model to analyze the relationship between the price of pre-owned cars and various factors such as brand, condition, mileage, location, and more.
 
-This project has two parts- <br>
-1) Creating interactive visualization : We used PowerBI for creating dashboard and hosted it here. <br>
-https://app.powerbi.com/view?r=eyJrIjoiN2I0M2UzZjUtNzE4NS00Mjc1LWIzNmEtYThhZGY5MDEyMzQwIiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9  <br>
+## Project Overview
+The project is divided into two main parts:
 
-2) Creating a prediction model : We used pyton and pyspark for modelling and deployed it on Heroku using Flask. <br>
-It has been deployed here: <br>
-https://pal-cc.herokuapp.com/
+### 1. Interactive Visualization
+We utilized Power BI to build an interactive dashboard that provides insights into the dataset. You can view the hosted dashboard here:
+markdown
+   [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiN2I0M2UzZjUtNzE4NS00Mjc1LWIzNmEtYThhZGY5MDEyMzQwIiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9)
 
+### 2. Prediction Model
+We developed a machine learning model using Python and PySpark, and deployed it on Heroku via a Flask web application.
+Access the deployed model here:
+Prediction Model on Heroku
 
-For more details about this project, visit: https://palak-j.github.io/pr11  <br>
+## Dataset
+The dataset used in this project is an open-source dataset of used cars from Kaggle, consisting of 400,000 records and 26 features. After cleaning and preprocessing with Python, the final dataset includes:
+
+### Number of Features: 11
+Features: Car ID, City, State, Manufacturer, Model, Condition, Title Status, Odometer, Size, Car Type, Posted Date
+### Number of Records: 240,000
+
+## Additional Details
+For a comprehensive description of this project, visit the project page:
+Project Details
+
