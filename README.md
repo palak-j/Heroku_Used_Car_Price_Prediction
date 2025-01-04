@@ -15,7 +15,7 @@ We developed a machine learning model using Python and PySpark, and deployed it 
 ![frontend](https://github.com/palak-j/Heroku_Used_Car_Price_Prediction/blob/main/static/frontend_index.png)
 
 ## Dataset
-The dataset used in this project is an open-source dataset of used cars from Kaggle, consisting of 400,000 records and 26 features. After cleaning and preprocessing with Python, the final dataset includes:
+The dataset used in this project is an open-source dataset of used cars from ![Kaggle](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data), consisting of 400,000 records and 26 features. After cleaning and preprocessing with Python, the final dataset includes:
 
 Number of Features: 11 <br>
 Features: Car ID, City, State, Manufacturer, Model, Condition, Title Status, Odometer, Size, Car Type, Posted Date <br>
