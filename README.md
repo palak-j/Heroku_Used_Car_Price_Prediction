@@ -20,3 +20,8 @@ The dataset used in this project is an open-source dataset of used cars from Kag
 ### Number of Features: 11
 Features: Car ID, City, State, Manufacturer, Model, Condition, Title Status, Odometer, Size, Car Type, Posted Date
 ### Number of Records: 240,000
+
+
+## Model Performance
+For this regression model, R squared value on test set is:
+**R Squared (R2) on test data = 0.999324**
