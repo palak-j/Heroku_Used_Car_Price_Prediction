@@ -17,9 +17,9 @@ We developed a machine learning model using Python and PySpark, and deployed it 
 ## Dataset
 The dataset used in this project is an open-source dataset of used cars from Kaggle, consisting of 400,000 records and 26 features. After cleaning and preprocessing with Python, the final dataset includes:
 
-### Number of Features: 11
-Features: Car ID, City, State, Manufacturer, Model, Condition, Title Status, Odometer, Size, Car Type, Posted Date
-### Number of Records: 240,000
+Number of Features: 11 <br>
+Features: Car ID, City, State, Manufacturer, Model, Condition, Title Status, Odometer, Size, Car Type, Posted Date <br>
+Number of Records: 240,000
 
 
 ## Model Performance
