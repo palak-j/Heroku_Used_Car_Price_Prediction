@@ -12,8 +12,7 @@ markdown
 
 ### 2. Prediction Model
 We developed a machine learning model using Python and PySpark, and deployed it on Heroku via a Flask web application.
-Access the deployed model here:
-Prediction Model on Heroku
+![frontend]([http://url/to/img.png](https://github.com/palak-j/Heroku_Used_Car_Price_Prediction/blob/main/static/frontend_index.png))
 
 ## Dataset
 The dataset used in this project is an open-source dataset of used cars from Kaggle, consisting of 400,000 records and 26 features. After cleaning and preprocessing with Python, the final dataset includes:
@@ -21,8 +20,3 @@ The dataset used in this project is an open-source dataset of used cars from Kag
 ### Number of Features: 11
 Features: Car ID, City, State, Manufacturer, Model, Condition, Title Status, Odometer, Size, Car Type, Posted Date
 ### Number of Records: 240,000
-
-## Additional Details
-For a comprehensive description of this project, visit the project page:
-Project Details
-
