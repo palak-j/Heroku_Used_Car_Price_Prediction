@@ -6,22 +6,66 @@ This project focuses on creating interactive visualizations and a prediction mod
 The project is divided into two main parts:
 
 ### 1. Interactive Visualization
-We utilized Power BI to build an interactive dashboard that provides insights into the dataset. You can view the hosted dashboard here:
-markdown
-   [Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiN2I0M2UzZjUtNzE4NS00Mjc1LWIzNmEtYThhZGY5MDEyMzQwIiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9)
+- Built an **interactive Power BI dashboard** to explore trends and patterns in the used car market.
+- Visualizations help understand how features like manufacturer, condition, mileage, and location affect car prices.
+- Enables dynamic filtering and drill-down analysis for better insights.
 
-### 2. Prediction Model
-We developed a machine learning model using Python and PySpark, and deployed it on Heroku via a Flask web application.
+⚠️ **Note:** Currently, the PowerBI dashboard cannot be accessed publicly due to permission and licensing restrictions.
+
+
+### 2. Price Prediction Model
+- Developed a **regression-based machine learning model** using **Python and PySpark**.
+- The model predicts used car prices based on selected vehicle attributes.
+- Deployed the model using **Flask** and hosted on **Heroku** for real-time inference via a web interface.
 ![frontend](https://github.com/palak-j/Heroku_Used_Car_Price_Prediction/blob/main/static/frontend_index.png)
 
-## Dataset
-The dataset used in this project is an open-source dataset of used cars from [Kaggle](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data), consisting of 400,000 records and 26 features. After cleaning and preprocessing with Python, the final dataset includes:
 
-Number of Features: 11 <br>
-Features: Car ID, City, State, Manufacturer, Model, Condition, Title Status, Odometer, Size, Car Type, Posted Date <br>
-Number of Records: 240,000
+## Dataset
+- **Source:** [Kaggle](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) (Open-source used car dataset) 
+- **Original Size:** ~400,000 records, 26 features
+- **Final Dataset (after cleaning & preprocessing):**
+  - **Records:** ~240,000
+  - **Features:** 11
+ 
+### Selected Features
+- Car ID  
+- City  
+- State  
+- Manufacturer  
+- Model  
+- Condition  
+- Title Status  
+- Odometer  
+- Size  
+- Car Type  
+- Posted Date
+
+
+## Tech Stack
+- **Programming Language:** Python
+- **Big Data Processing:** PySpark
+- **Machine Learning:** Regression models
+- **Visualization:** Power BI
+- **Backend:** Flask
+- **Deployment:** Heroku
 
 
 ## Model Performance
-For this regression model, R squared value on test set is: <br>
-**R Squared (R2) on test data = 0.999324**
+The trained regression model achieved strong predictive performance:
+
+- **R² Score (Test Data):** `0.999324`
+    
+
+## Key Highlights
+- End-to-end ML pipeline: data preprocessing → modeling → deployment
+- Scalable data handling using PySpark
+- Business-driven insights through interactive dashboards
+- Real-time price prediction via a deployed web application
+
+
+## Possible Future Improvements 
+- Feature engineering for temporal and seasonal price trends
+- Model benchmarking against ensemble methods
+- Cloud-based deployment (AWS / GCP)
+- Automated retraining pipelines
+- Uncertainty estimation for predictions
