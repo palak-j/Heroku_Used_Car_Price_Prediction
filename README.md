@@ -17,7 +17,7 @@ The project is divided into two main parts:
 - Developed a **regression-based machine learning model** using **Python and PySpark**.
 - The model predicts used car prices based on selected vehicle attributes.
 - Deployed the model using **Flask** and hosted on **Heroku** for real-time inference via a web interface.
-- 
+  
 ![frontend](https://github.com/palak-j/Heroku_Used_Car_Price_Prediction/blob/main/static/frontend_index.png)
 
 
